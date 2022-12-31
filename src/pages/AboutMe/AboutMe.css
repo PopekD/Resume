@@ -43,19 +43,19 @@
     padding-left: 3%;
   }
   .skillbar-title span{
-    padding: 0%;
-    text-align: center;
+    padding: 0% !important;
+    text-align: center !important;
   }
   .skillbar-percent {
-    font-size: 1.1em;
-    color: rgb(222, 222, 251);
+    font-size: 1.1em !important;
+    color: rgb(222, 222, 251) !important;
   }
   .skillbar-title{
-    background-color: rgb(222, 222, 251);
-    color:#0a0334;
+    background-color: rgb(222, 222, 251) !important;
+    color:#0a0334 !important;
   }
   .skillbar-bar{
-    background-color: #ac0e28;
+    background-color: #ac0e28 !important;
   } 
     @media (max-width: 500px) {
       .skillset{
