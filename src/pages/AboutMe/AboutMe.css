@@ -1,0 +1,64 @@
+
+  .aboutMe{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: #010a1c;
+  }
+  #progress {
+    position: absolute;
+    transform: rotate(-90deg);
+    right: 3vw;
+  }
+  
+  circle {
+    stroke-dashoffset: 0;
+    stroke-width: 15%;
+    fill: none;
+  }
+  
+  .bg {
+    stroke: rgb(222, 222, 251);
+    opacity: 0.3;
+  }
+  
+  #progress .indicator {
+    stroke: rgb(222, 222, 251);
+  }
+  .about_text{
+    width: 100%;
+    height: 100%;
+    right: 0px;
+    padding: 5% 0% 0% 40%;
+    font-size: clamp(15px, 1.5vw, 1.75vw);
+    color: rgb(222, 222, 251);
+  }
+  .skillset{
+    width: 70%;
+    height: 100%;
+    padding-top: 10vh;
+    display: grid;
+    align-items: center;
+    flex: 2;
+    padding-left: 3%;
+  }
+  .skillbar-title span{
+    padding: 0%;
+    text-align: center;
+  }
+  .skillbar-percent {
+    font-size: 1.1em;
+    color: rgb(222, 222, 251);
+  }
+  .skillbar-title{
+    background-color: rgb(222, 222, 251);
+    color:#0a0334;
+  }
+  .skillbar-bar{
+    background-color: #ac0e28;
+  } 
+    @media (max-width: 500px) {
+      .skillset{
+        width: 100%;
+      }
+    }

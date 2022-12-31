@@ -1,0 +1,26 @@
+.navBar{
+    width: 100%;
+    min-height: 68.4px;
+    background-color:  rgba(113, 8, 0, 0.617);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+}
+
+.Menu_links{
+    width: 100%;
+    font-size: clamp(1em, 2em, 1.3em);
+    display: grid;
+    grid-template-columns: max-content max-content;
+    grid-auto-flow: column;
+    justify-content: space-evenly;
+}
+
+.Link{
+    transition: all .2s ease-in-out;
+}
+.Link:hover {
+    transform: scale(1.3); 
+}

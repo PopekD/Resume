@@ -1,0 +1,10 @@
+.Contact{
+    height: 20vh;
+    width: 100%;
+    background-color: #010a1c;
+}
+@media (max-width: 915px) {
+    .Contact{
+        height: 0vh;
+    }
+}
