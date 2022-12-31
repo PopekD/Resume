@@ -6,8 +6,8 @@ import Button from '@mui/material/Button';
 import AssignmentIndIcon from '@mui/icons-material/AssignmentInd';
 
 
-const list: string[] = ["ATM Machine(Java)", "Election Machine(Java)", "Nini Reminder(Swift)", "GPA Corelation(Python)"];
-const links: string[] = ["https://github.com/PopekD/ATM", "https://github.com/Ebassani/ElectionMachine", "https://github.com/PopekD/Nini_Reminder", "https://github.com/PopekD/High_School_GPA_University_GPA_Corelation"];
+const list: string[] = ["ATM Machine(Java)", "Election Machine(Java)", "Nini Reminder(Swift)", "GPA Corelation(Python)", "Resume (React/TypeScript)"];
+const links: string[] = ["https://github.com/PopekD/ATM", "https://github.com/Ebassani/ElectionMachine", "https://github.com/PopekD/Nini_Reminder", "https://github.com/PopekD/High_School_GPA_University_GPA_Corelation", "https://github.com/PopekD/Resume"];
 
 
 const Projects: React.FC = () => {
