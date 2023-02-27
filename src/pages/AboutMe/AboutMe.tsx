@@ -15,7 +15,8 @@ const AboutMe: React.FC = () => {
     { type: 'Swift', level: 45},
     { type: 'React', level: 45},
     { type: 'Python', level: 60},
-    { type: 'TypeScript', level: 40}
+    { type: 'TypeScript', level: 40},
+    { type: 'C++', level: 55 }
 
   ];
 
