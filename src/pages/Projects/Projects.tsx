@@ -6,8 +6,8 @@ import Button from '@mui/material/Button';
 import AssignmentIndIcon from '@mui/icons-material/AssignmentInd';
 
 
-const list: string[] = ["TrainTracker (React-Native)", "ATM Machine(Java)", "Election Machine(Java)", "Nini Reminder(Swift)", "GPA Corelation(Python)", "Resume (React/TypeScript)"];
-const links: string[] = ["https://github.com/PopekD/TrainTracker","https://github.com/PopekD/ATM", "https://github.com/Ebassani/ElectionMachine", "https://github.com/PopekD/Nini_Reminder", "https://github.com/PopekD/High_School_GPA_University_GPA_Corelation", "https://github.com/PopekD/Resume"];
+const list: string[] = ["TrainTracker (React-Native)", "Tasks_Manager", "Voice_To_Text_App", "Election Machine(Java)", "Nini Reminder(Swift)", "GPA Corelation(Python)", "Resume (React/TypeScript)"];
+const links: string[] = ["https://github.com/PopekD/TrainTracker", "https://github.com/PopekD/Tasks_Manager","https://github.com/PopekD/Voice_To_Text_App", "https://github.com/Ebassani/ElectionMachine", "https://github.com/PopekD/Nini_Reminder", "https://github.com/PopekD/High_School_GPA_University_GPA_Corelation", "https://github.com/PopekD/Resume"];
 
 
 const Projects: React.FC = () => {
